@@ -1,0 +1,10 @@
+
+# Maven build
+target
+
+# Ecplise
+.project
+.settings
+.classpath
+
+data

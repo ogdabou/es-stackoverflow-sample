@@ -1,0 +1,42 @@
+{
+
+    "_index": "my_index_01",
+    "_type": "tweets",
+    "_id": "5.93897683661824E17",
+    "_version": 1,
+    "_score": 1,
+    "_source": {
+        "created_at": "2015-05-01T12:00:16+0200",
+        "id": 593897683661824000,
+        "id_str": "593897683661824000",
+        "text": "RT @UnRevelateur: Le monde part en couilles quand tu sais que il y a eu 3200 morts au Népal et que les médias parlent seulement du nombres …",
+        "source": "<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>",
+        "truncated": false,
+        "user": {
+            "id": 928742654,
+            "id_str": "928742654"
+        },
+        "retweeted_status": {
+            "created_at": "Mon Apr 27 16:33:20 +0000 2015","id": 592728244056694800,"id_str": "592728244056694784","text": "Le monde part en couilles quand tu sais que il y a eu 3200 morts au Népal et que les médias parlent seulement du nombres de morts Français.","source": "<a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>","truncated": false,"user": {
+                "id": 2932314742,"id_str": "2932314742","name": "Je suis ...","screen_name": "UnRevelateur","location": "Paris.","url": "http://ask.fm/UnRevelateur","description": "La vérité ne plaît pas aux naïfs. // Contact : unrevelateur@outlook.fr","protected": false,"verified": false,"followers_count": 65110,"friends_count": 341,"listed_count": 164,"favourites_count": 970,"statuses_count": 461,"created_at": "Fri Dec 19 16:57:58 +0000 2014","utc_offset": 7200,"time_zone": "Paris","geo_enabled": false,"lang": "fr","contributors_enabled": false,"is_translator": false,"profile_background_color": "000000","profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png","profile_background_tile": false,"profile_link_color": "000000","profile_sidebar_border_color": "C0DEED","profile_sidebar_fill_color": "DDEEF6","profile_text_color": "333333","profile_use_background_image": true,"profile_image_url": "http://pbs.twimg.com/profile_images/545987017243250689/VGBo_Qdr_normal.jpeg","profile_image_url_https": "https://pbs.twimg.com/profile_images/545987017243250689/VGBo_Qdr_normal.jpeg","profile_banner_url": "https://pbs.twimg.com/profile_banners/2932314742/1419010148","default_profile": false,"default_profile_image": false},"retweet_count": 1468,"favorite_count": 416,"entities": {
+                "hashtags": [ ],"trends": [ ],"urls": [ ],"user_mentions": [ ],"symbols": [ ]},"favorited": false,"retweeted": false,"possibly_sensitive": true,"filter_level": "low","lang": "fr"},
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [ ],"trends": [ ],"urls": [ ],"user_mentions": [
+                {
+                    "screen_name": "UnRevelateur","name": "Je suis ...","id": 2932314742,"id_str": "2932314742","indices": [
+                        3,16]}],"symbols": [ ]},
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "fr",
+        "timestamp_ms": "1430431216527",
+        "date_create_at": "01-05-2015",
+        "id_tweet": "5.93897683661824E17",
+        "layer": "speed",
+        "date_get": "01-05-2015"
+    }
+
+}
