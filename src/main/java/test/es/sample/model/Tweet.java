@@ -8,26 +8,25 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @Document(indexName = "my_index_01", type = "tweets")
 public class Tweet
 {
-	
-	public Tweet()
-	{
-		// TODO Auto-generated constructor stub
-	}
-	
+	// Elasticsearch object internal id. Look at field "_id"
 	@Id
-	private String idStr;
+	private String id;
+	
+	// Twitter internal id, saved under the "id_str" field
+	@Field(type = FieldType.String)
+	private String id_str;
 	
 	@Field(type = FieldType.String)
 	private String text;
 	
-	public String getIdStr()
+	public String getId_str()
 	{
-		return idStr;
+		return id_str;
 	}
 	
-	public void setIdStr(final String idStr)
+	public void setId_str(final String id_str)
 	{
-		this.idStr = idStr;
+		this.id_str = id_str;
 	}
 	
 	public String getText()
@@ -40,9 +39,19 @@ public class Tweet
 		this.text = text;
 	}
 	
+	public String getId()
+	{
+		return id;
+	}
+	
+	public void setId(final String id)
+	{
+		this.id = id;
+	}
+	
 	@Override
 	public String toString()
 	{
-		return "{ id_str : " + idStr + " }";
+		return "{ _id : " + id + ", id_str :  " + id_str + ", text : " + text + " }";
 	}
 }

@@ -37,12 +37,24 @@ public class AppTest
 	{
 		
 		// this returns null
-		final Tweet tweet1 = tweetRepository.findOne("593897728880566272");
+		final Tweet tweet1 = tweetRepository.findOne("5.9389769123238298E17");
 		
 		if (tweet1 != null)
 		{
 			System.out.println("Found " + tweet1);
 		}
+		
+		// this returns the right number
+		System.out.println("Count is " + tweetRepository.count());
+	}
+	
+	@Test
+	public void shouldReturnAllTweets()
+	{
+		
+		final Tweet t = tweetRepository.findByIdStr("593897660559523840");
+		
+		System.out.println(t);
 		
 		// this returns the right number
 		System.out.println("Count is " + tweetRepository.count());
